@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="soundboard">
+
+        <audio id="alarm">
+            <source src="alarm_beep.wav"> 
+        </audio>
+        <button onclick="alarmBeep()" class="button1">
+            Click here to listen to the alarm beep
+        </button>
+
+
+        <audio id="disconnect">
+            <source src="disconnect_x.wav">
+        </audio>
+        <button onclick="disconnect()" class="button2">
+            Click here to listen to the disconnect sound
+        </button>
+
+
+        <audio id="clock">
+            <source src="clock.wav"> 
+        </audio>
+        <button onclick="clock()" class="button3">
+            Click here to listen to clock sound
+        </button>
+
+        <script src="soundboard.js"></script>
+    </div>
+</body>
+</html>
